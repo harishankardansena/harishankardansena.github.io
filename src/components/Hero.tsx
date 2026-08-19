@@ -77,9 +77,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
             </div>
 
             {/* Bio statement */}
-            <p className="text-base sm:text-lg text-[#8B949E] leading-relaxed max-w-2xl">
-              {personalInfo.tagline}
-            </p>
+            <div className="text-base sm:text-lg text-[#8B949E] leading-relaxed max-w-2xl space-y-2">
+              <p>Full-Stack Developer and AI/ML enthusiast building practical web, mobile, and intelligent software applications.</p>
+              <p>I build with React, Node.js, Python, Django, React Native, and machine learning to turn ideas into usable products.</p>
+            </div>
 
             {/* Action Buttons */}
             <div className="flex flex-wrap items-center gap-3 pt-2">
